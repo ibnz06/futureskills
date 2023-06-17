@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from edunet-html.vercel.app/leader-board.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 15:20:19 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Future Skills</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logoi.png">
+    <!-- Custom Stylesheet -->
+    <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+    <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylekursus.css">
+</head>
+
+<body class="dashboard">
+
+    <div id="preloader">
+        <i>.</i>
+        <i>.</i>
+        <i>.</i>
+    </div>
+
+    <div id="main-wrapper">
+
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="header-content">
+                            <div class="header-left">
+                                <a class="mini-logo" href="dasboard.html"><img src="images/logoi.png" alt="" width="40" style="margin-right: 50px;"></a>
+                                <a href="KontenKursus.html" class="classroom-top-nav__title cta-to-corridor me-50">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="">
+                                            <path d="M4.35982 11L10.3598 6L11.6402 7.53644L7.76205 10.7682H20V12.7682H7.76205L11.6402 16L10.3598 17.5364L4.35982 12.5364C4.13182 12.3464 4 12.065 4 11.7682C4 11.4714 4.13182 11.19 4.35982 11Z" fill="#71717A"></path>
+                                        </svg>
+                                </a>
+                                <div class="search">
+                                    <form action="#">
+                                        <div class="input-group"><input type="text" class="form-control" placeholder="Search Here..."><span class="input-group-text px-12"><i
+                                            class="ri-search-line"></i></span></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="header-right">
+                                <div class="dark-light-toggle"><span class="dark"><i class="ri-moon-line"></i></span><span class="light"><i class="ri-sun-line"></i></span></div>
+                                <div class="nav-item dropdown notification dropdown">
+                                    <div data-bs-toggle="dropdown">
+                                        <div class="notify-bell icon-menu"><span><i class="ri-notification-2-line"></i></span>
+                                        </div>
+                                    </div>
+                                    <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu notification-list dropdown-menu dropdown-menu-right">
+                                        <div class="lists">
+                                            <a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span class="me-16 icon  bg-success-lighten text-success"><i
+                                                    class="ri-check-line"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Device confirmation completed</h6><span class="fs-13 text-muted">020-11-04
+                                                    <!-- -->
+                                                    <!-- -->12:00:23
+                                                </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span class="me-16 icon  bg-danger-lighten text-danger"><i
+                                                    class="ri-close-line"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">2FA verification failed</h6><span class="fs-13 text-muted">020-11-04
+                                                    <!-- -->
+                                                    <!-- -->12:00:23
+                                                </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span class="me-16 icon  bg-warning-lighten text-warning"><i
+                                                    class="ri-question-mark"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Phone verification pending</h6><span class="fs-13 text-muted">020-11-04
+                                                    <!-- -->
+                                                    <!-- -->12:00:23
+                                                </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span class="me-16 icon  bg-warning-lighten text-warning"><i
+                                                    class="ri-question-mark"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Phone verification pending</h6><span class="fs-13 text-muted">020-11-04
+                                                    <!-- -->
+                                                    <!-- -->12:00:23
+                                                </span>
+                                                    </div>
+                                                </div>
+                                            </a><a href="notification.html">See more<i class="ri-arrow-right-s-line"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="dropdown profile_log dropdown">
+                                    <div data-bs-toggle="dropdown">
+                                        <div class="user icon-menu active"><span class="thumb"><img src="images/avatar/1.png"
+                                            alt=""></span></div>
+                                    </div>
+                                    <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu dropdown-menu-right">
+                                        <div class="user-email">
+                                            <div class="user"><span class="thumb"><img src="images/avatar/1.png" alt=""></span>
+                                                <div>
+                                                    <h5>Fiaz Abdullah</h5><span>codeefly@gmail.com</span>
+                                                </div>
+                                            </div>
+                                        </div><a class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined" href="profile.html"><span class="fs-18 text-primary me-10"><i
+                                            class="ri-user-line"></i></span>Profile</a><a class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined" href="settings-profile.html"><span class="fs-18 text-primary me-10"><i
+                                            class="ri-settings-3-line"></i></span>Settings</a><a class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined" href="settings-activity.html"><span class="fs-18 text-primary me-10"><i
+                                            class="ri-time-line"></i></span>Activity</a><a class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined" href="lock.html"><span class="fs-18 text-primary me-10"><i
+                                            class="ri-lock-line"></i></span>Lock</a><a class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  text-danger" href="signin.html"><span class="fs-18 text-primary me-10"><i
+                                            class="ri-logout-circle-line"></i></span>Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="sidebar-right overflow-auto collapbd-links col-3 border border-1 p-10">
+                <ul class="list-group list-group-light p-3" style="background-color:#20d489;">
+
+                    <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                        <li class="list-group-item px-20 border-0 fw-bolder border-bottom" aria-current="true">
+                            Pendahuluan
+                        </li>
+                    </a>
+                    <!-- Collapsed content -->
+                    <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample3">
+
+                        <a href="pengenalanui.html">
+                            <div class="d-flex justify-content-between list-group-item p-0 border-0">
+                                <div>
+                                    <li class="list-group-item border-0 active ">Pengenalan UI</li>
+                                </div>
+                                <div class="text-end">
+
+                                    <input class="form-check-input float-end " type="checkbox" value="" id="flexCheckDefault" style="margin-top: 15px; ;">
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="pengenalanux.html">
+                            <div class="d-flex justify-content-between list-group-item p-0 border-0">
+                                <div>
+                                    <li class="list-group-item border-0 active ">Pengenalan UX</li>
+                                </div>
+                                <div class="text-end">
+
+                                    <input class="form-check-input float-end " type="checkbox" value="" id="flexCheckDefault" style="margin-top: 15px; ;">
+
+                                </div>
+                            </div>
+                        </a>
+                    </ul>
+                    <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Pemahaman Pengguna
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Desain User Interface (UI)
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Pengalaman Pengguna (UX)
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Desain Mobile & Responsif
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Prototyping & Wireframeming
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Etika & Aksebilitas
+                        </li>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
+                        <li class="list-group-item px-20 border-0 fw-bolder" aria-current="true">
+                            Study Case UI/UX Design
+                        </li>
+                    </a>
+                </ul>
+                <br>
+                <div class="text-center">
+                    Progress Pembelajaran
+                </div>
+                <br>
+                <div class="progress m-3">
+                    <div class="progress-bar " role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+
+            </div>
+            <div class="col-9 m-0">
+
+
+
+                <div class="elementor-widget-container">
+
+                    <h1 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 600; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53); text-align: center; "><span style="padding: 0px; margin: 0px;">PENGENALAN UI</span></h1>
+                    <p style="padding-top: 30px;"></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Penggunaan aplikasi berbasis web maupun mobile sudah sangat sering digunakan oleh pengguna dalam berbagai usia. Anda mungkin juga salah satunya yang sering atau bahkan selalu menggunakan aplikasi tersebut. Namun, pernahkah anda mencari sebuah situs dan anda masuk di dalamnya, namun anda cepat – cepat keluar karena tampilan visual dari website tersebut tidak menarik? Maka hal tersebut sangatlah wajar. Yang berarti website tersebut tidak menerapkan prinsip user interface dengan baik.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Sebelumnya apakah anda sudah mengetahui terlebih dahulu apa itu user interface? User interface adalah salah satu bagian terpenting dalam pengembangan sebuah perangkat lunak. Oleh karena itu, kita akan membahasnya pada artikel kali ini, mengenai apa itu user interface, manfaat, serta karakteristik yang dimilikinya.</span></p>
+                    <img src="images/courses/PUI.png" class="img-fluid" alt="...">
+                    <h2 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 600; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px;">Apa itu user interface?</span></h2>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">User interface adalah tampilan visual dalam sebuah aplikasi sebagai tempat (media) untuk menghubungkan antara sistem dengan user. Jika anda pernah masuk dalam beberapa website, maka anda akan disajikan dengan tampilan awal beranda dalam website tersebut.&nbsp;</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><i style="padding: 0px; margin: 0px;">Nah,&nbsp;</i><span style="padding: 0px; margin: 0px;">dari situlah terdapat tampilan antarmuka awal dari website agar anda dapat berinteraksi dengan baik. Dalam pengaplikasiannya, user interface (UI) juga berhubungan erat dengan yang namanya user experience (UX). Kedua hal tersebut memang berbeda, namun memiliki keterikatan pada masing – masing bagian tugas mereka. Saati ini, kita lebih berfokus pada antarmuka pengguna saja.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Di dalam dunia IT, banyak perusahaan yang membutuhkan jasa atau pekerjaan dari seorang UI Designer maupun UI / UX Designer. Tugas dan tanggung jawab yang dimilikinya adalah mampu untuk merancang dan mengembangkan suatu tampilan awal desain aplikasi yang nantinya akan diimplementasikan ke dalam kode program yang akan dikerjakan oleh developer atau pengembang aplikasi.</span></p>
+                    <h2 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 600; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px;">Seberapa pentingkah desain user interface?</span></h2>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Mungkin, bagi sebagian orang akan bertanya, seberapa pentingkah penerapan dari desain user interface? Kami akan memaparkan beberapa alasan mengapa antarmuka pengguna sangat penting dalam sebuah pengembangan desain produk UI.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 1. Desain user interface membantu meningkatkan traffic website</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Jika anda terjun dalam dunia bisnis digital, maka tujuan utama dari anda membuat sebuah website adalah supaya anda dapat memperkenalkan produk anda kepada pengunjung internet, serta meningkatkan jumlah&nbsp; pengunjung (traffic) website.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Maka dari itu, user interface adalah kunci awal dalam membantu tujuan tersebut. Jika anda membuat tampilan website yang menarik, mudah, interaktif dan modern, maka secara otomatis pengguna juga akan masuk pada website anda. Kemudian, anda juga harus memperhatikan setiap komponen penyusunan dalam membuat desain awal aplikasi sehingga, user lebih mudah dalam berinteraksi dengan website atau aplikasi anda.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 2. Membantu memudahkan pengguna aplikasi</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Desain user interface juga dapat membantu dalam memudahkan pengguna aplikasi untuk dapat mengeksplor aplikasi yang anda kembangkan. Setiap orang tentu menginginkan aplikasi yang mudah digunakan, dengan tampilan desain yang menarik.&nbsp;</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Sesuai dari pengertian user interface, tampilan visual produk aplikasi memiliki peran penting dalam memberikan pengalaman yang baik bagi pengguna. Contohnya, saat anda masuk dalam website, anda akan melihat – lihat berbagai fitur dan konten yang tersedia disana. Anda juga dapat berinteraksi langsung dengan menekan&nbsp;</span>
+                        <i style="padding: 0px; margin: 0px;">button,&nbsp;</i><span style="padding: 0px; margin: 0px;">atau link, dll. Dalam proses interaksi tersebut, tampilan desain akan diuji, apakah memang UI yang telah dibuat sudah memudahkan pengguna atau justru membingungkan pengguna.&nbsp;</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Maka dari itu, sebelum pembuatan UI, harus melewati berbagai proses terlebih dahulu seperti melakukan&nbsp;</span><i style="padding: 0px; margin: 0px;">user research</i>
+                        <span style="padding: 0px; margin: 0px;">&nbsp;dan&nbsp;</span><i style="padding: 0px; margin: 0px;">research competitor</i><span style="padding: 0px; margin: 0px;">&nbsp;produk anda. Sehingga, dengan produk aplikasi anda, dapat bersaing dengan produk kompetitor lain.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 3. Mendukung terbentuknya user experience (UX) yang tepat dan optimal</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Yang terakhir, desain user interface juga mempengaruhi user experience dari pengguna. Jadi, apabila anda membuat user interface yang memiliki desain grafis yang bagus, namun fitur, konten, dan layout masih belum sesuai dan terkesan ribet, maka akan berpengaruh secara tidak langsung bagi user yang akan menggunakan produk anda.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Tampilan yang bagus dan menarik bukan sekedar hanya dari segi visual yang baik saja, namun harus disertai dengan user experience yang baik pula. Yang mana, aplikasi dapat memudahkan pengguna dalam mencari apa yang memang dibutuhkan.&nbsp;</span></p>
+                    <h2 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 600; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px;">Apa saja manfaat user interface?</span></h2>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Setelah mengetahui pentingnya sebuah desain antarmuka, selanjutnya kami akan membahas manfaat user interface. Sehingga, anda akan lebih paham mengenai tujuan dari pembuatan UI itu sendiri.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 1. Memudahkan dalam proses interaksi dengan pengguna (user)</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Desain yang baik tentu saja memberikan tampilan yang menarik dan mudah untuk digunakan. Manfaat user interface adalah menjadi sebuah jembatan antara pengguna dengan aplikasi. Jadi, semua yang anda lihat dan dapat berinteraksi di dalamnya, maka disebut dengan tampilan antarmuka (UI).</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 2. Meningkatkan branding sebuah perusahaan</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Manfaat user interface selanjutnya, dapat meningkatkan branding atau nilai suatu produk perusahaan. Sehingga, user dapat mengetahui dengan jelas produk atau layanan bisnis perusahaan anda. UI disini disini berperan penting dalam memberikan tampilan visual yang menjadi ciri khas atau identitas dari perusahaan anda.&nbsp;</span></p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 3. Meningkatkan keuntungan dalam bisnis yang dijalankan</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Manfaat user interface terakhir, yaitu dapat meningkatkan keuntungan atau&nbsp;</span><i style="padding: 0px; margin: 0px;">profit</i>
+                        <span style="padding: 0px; margin: 0px;">&nbsp;sebuah bisnis. Antarmuka pengguna yang berkualitas merupakan tampilan yang dapat memberikan peningkatan dalam keberhasilan dan pencapaian bisnis. Sehingga, kita
+                                                                                        dapat mengetahui dan menyusun manajemen aplikasi, apakah tampilan desain aplikasi yang sudah dibuat sudah sesuai dengan kebutuhan produk atau perlu diimprovisasi lagi.</span>
+                    </p>
+                    <h2 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 600; font-stretch: normal; font-size: 24px; line-height: 40px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px;">Bagaimana karakteristik dan cara membuat user interface?</span></h2>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Untuk selanjutnya, masuk pada pembahasan mengenai cara membuat user interface yang baik dan benar sesuai dengan karakteristik yang dimilikinya. Berikut merupakan beberapa penjelasannya terkait dengan apa itu user interface dari segi karakteristiknya.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 1. Jelas dan konsisten</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Karakteristik yang pertama adalah jelas dan konsisten. User interface adalah tampilan antarmuka pengguna untuk proses interaksi pada sebuah aplikasi. UI yang baik, tentu akan menampilkan komposisi desain dan konten yang jelas.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Jelas dalam artian adalah mudah dipahami oleh pengguna. Serta memiliki struktur desain yang konsisten. Misalnya, dalam penerapan atau implementasi layout, gambar, konten, section, warna, dan lain sebagainya.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 2. Responsif dan menarik</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Karakteristik kedua yaitu memiliki antarmuka pengguna yang responsif dan menarik. Responsif disini maksudnya adalah dapat dijalankan di berbagai perangkat dan tampilan tersebut mampu untuk menyesuaikan bentuk ukuran dari perangkat.&nbsp;</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Menarik disini dapat berarti penyajian konten dan desain mampu untuk membuat pengguna merasa nyaman untuk terus berada dalam aplikasi tersebut. Pastikan juga anda membuat sebuah antarmuka sesuai dengan kebutuhan produk anda.&nbsp;</span></p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;"></span><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 3. Terstruktur dan efisien</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Membuat interface yang terstruktur dan efisien. Terstruktur disini adalah UI mampu untuk memberikan tampilan yang mendukung dari aplikasi tersebut. Alur jalannya proses aplikasi menjadi lebih mudah dengan adanya UI tersebut.</span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Efisien disini berarti antarmuka yang dibuat mampu untuk menjawab berbagai permasalahan yang dihadapi pengguna. Pastikan untuk membuat interface yang dapat memudahkan pengguna dalam mendapatkan tujuan yang mereka inginkan.&nbsp;</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 4. Tepat sasaran</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Karakteristik selanjutnya adalah tepat sasaran. Maksudnya disini, UI yang telah anda buat, memiliki kesesuaian dengan produk yang akan anda tawarkan atau publikasikan. Tujuan akhirnya, supaya antarmuka yang ditampilkan dapat mendukung dan meningkatkan nilai jual dari produk anda.</span>
+                        <span style="padding: 0px; margin: 0px; font-weight: 700;"></span>
+                    </p>
+                    <h3 style="padding: 0px; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 30px; font-family: Poppins, Helvetica, Arial, Verdana, sans-serif; clear: none; color: rgb(14, 26, 53);"><span style="padding: 0px; margin: 0px; font-weight: 700;">&nbsp; &nbsp; &nbsp; 5. Mudah diolah</span></h3>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;"></span></p>
+                    <p style="padding: 0px; color: rgb(41, 41, 41); font-family: Inter, sans-serif; font-size: 16px;"><span style="padding: 0px; margin: 0px;">Terakhir yaitu interface yang mudah diolah. Maknanya, ketika anda melakukan kesalahan atau ingin mengubah beberapa tampilan karena suatu alasan, maka UI yang baik dapat memberikan kemudahan dalam proses&nbsp;</span>
+                        <i style="padding: 0px; margin: 0px;">editing</i><span style="padding: 0px; margin: 0px;">&nbsp;-nya.&nbsp;</span></p>
+                    <p>https://teknik-informatika-s1.stekom.ac.id/informasi/baca/Pengenalan-User-Interface-Pengertian-Manfaat-dan-Karakteristik/82e9eac8bcb19566d9204e9d0a99b6965d44b9bc</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/scripts.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from edunet-html.vercel.app/leader-board.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 15:20:19 GMT -->
+
+</html>

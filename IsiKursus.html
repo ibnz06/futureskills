@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from edunet-html.vercel.app/leader-board.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 15:20:19 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Future SKills - Personal LMS</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+    <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleh.css">
+        <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+rel="stylesheet"
+</head>
+
+<body class="dashboard overflow-hidden">
+
+    <div id="preloader">
+        <i>.</i>
+        <i>.</i>
+        <i>.</i>
+    </div>
+
+    <div id="main-wrapper">
+
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="header-content">
+                            <div class="header-left">
+                                <a class="mini-logo" href="dasboard.html"><img src="images/logoi.png" alt="" width="40" style="margin-right: 50px;"></a>
+                                <div class="search">
+                                    <form action="#">
+                                        <div class="input-group"><input type="text" class="form-control"
+                                                placeholder="Search Here..."><span class="input-group-text px-12"><i
+                                                    class="ri-search-line"></i></span></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="header-right">
+                                <div class="dark-light-toggle"><span class="dark"><i
+                                            class="ri-moon-line"></i></span><span class="light"><i
+                                            class="ri-sun-line"></i></span></div>
+                                <div class="nav-item dropdown notification dropdown">
+                                    <div data-bs-toggle="dropdown">
+                                        <div class="notify-bell icon-menu"><span><i
+                                                    class="ri-notification-2-line"></i></span>
+                                        </div>
+                                    </div>
+                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                        class="dropdown-menu notification-list dropdown-menu dropdown-menu-right">
+                                        <div class="lists"><a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="me-16 icon  bg-success-lighten text-success"><i
+                                                            class="ri-check-line"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Device confirmation completed</h6><span
+                                                            class="fs-13 text-muted">020-11-04
+                                                            <!-- -->
+                                                            <!-- -->12:00:23
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a><a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="me-16 icon  bg-danger-lighten text-danger"><i
+                                                            class="ri-close-line"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">2FA verification failed</h6><span
+                                                            class="fs-13 text-muted">020-11-04
+                                                            <!-- -->
+                                                            <!-- -->12:00:23
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a><a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="me-16 icon  bg-warning-lighten text-warning"><i
+                                                            class="ri-question-mark"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Phone verification pending</h6><span
+                                                            class="fs-13 text-muted">020-11-04
+                                                            <!-- -->
+                                                            <!-- -->12:00:23
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a><a class="d-block pt-10 pb-10 border-bottom" href="#">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="me-16 icon  bg-warning-lighten text-warning"><i
+                                                            class="ri-question-mark"></i></span>
+                                                    <div>
+                                                        <h6 class="mb-0 fs-14">Phone verification pending</h6><span
+                                                            class="fs-13 text-muted">020-11-04
+                                                            <!-- -->
+                                                            <!-- -->12:00:23
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a><a href="notification.html">See more<i
+                                                    class="ri-arrow-right-s-line"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="dropdown profile_log dropdown">
+                                    <div data-bs-toggle="dropdown">
+                                        <div class="user icon-menu active"><span class="thumb"><img
+                                                    src="images/avatar/1.png" alt=""></span></div>
+                                    </div>
+                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                        class="dropdown-menu dropdown-menu dropdown-menu-right">
+                                        <div class="user-email">
+                                            <div class="user"><span class="thumb"><img src="images/avatar/1.png"
+                                                        alt=""></span>
+                                                <div>
+                                                    <h5>Nur Fadli Hermawan</h5><span>padli@gmail.com</span>
+                                                </div>
+                                            </div>
+                                        </div><a
+                                        class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined"
+                                        href="profile.html"><span class="fs-18 text-primary me-10"><i
+                                                class="ri-user-line"></i></span>Profile</a><a
+                                        class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  undefined"
+                                        href="settings-profile.html"><span class="fs-18 text-primary me-10"><i
+                                                class="ri-settings-3-line"></i></span>Settings</a><a                                    
+                                        class="dropdown-item ps-20 pe-20 pt-10 pb-10 d-flex align-items-center border-top  text-danger"
+                                        href="signin.html"><span class="fs-18 text-primary me-10"><i
+                                                class="ri-logout-circle-line"></i></span>Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-right overflow-auto ">
+            <ul class="list-group list-group-light">
+                
+                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><li class="list-group-item px-3 border-0 active fw-bolder" aria-current="true">
+                    Getting Started
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2"><li class="list-group-item px-3 border-0 fw-bolder active"  aria-current="true">
+                    Customize
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample2">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Layout
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample3">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Content
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample4">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Forms
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample5">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Components
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample6">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Helpers
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample7">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Utilities
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample8">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    Extend
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample9">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+                <a data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10"><li class="list-group-item px-3 border-0 fw-bolder" aria-current="true">
+                    About
+                </li></a>
+                <!-- Collapsed content -->
+                <!-- <div class="collapse" id="collapseExample"> -->
+
+                    <ul class="list-group list-group-light collapse px-4" id="collapseExample10">
+                        <li class="list-group-item border-0 ">An item</li>
+                        <li class="list-group-item border-0">A second item</li>
+                        <li class="list-group-item border-0">A third item</li>
+                        <li class="list-group-item border-0">A fourth item</li>
+                        <li class="list-group-item border-0">And a fifth one</li>
+                      </ul>
+               
+
+
+              
+               
+              </ul>
+
+
+            
+        </div>
+        <div class="content-body" style="min-height: 796px;">
+            dsfijsdfijdij
+            </div>
+
+
+
+
+        <div class="content-body">
+            <div class="container">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/scripts.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from edunet-html.vercel.app/leader-board.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 May 2023 15:20:19 GMT -->
+
+</html>
