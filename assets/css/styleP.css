@@ -571,7 +571,37 @@ p {
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
+
 }
+.btn-log {
+  display:block;
+  height: 50px;
+  line-height: 53px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2467EC;
+  padding: 0 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  border: 1px solid transparent;
+}
+.btn-log:hover {
+  background-color: #FFB013;
+  color: #141517;
+}
+.btn-log:focus {
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
 .edu-btn {
   display: inline-block;
   height: 55px;
